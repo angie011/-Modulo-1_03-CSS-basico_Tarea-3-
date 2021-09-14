@@ -1,0 +1,81 @@
+body {
+    background-color: #BEBEBE;
+    color: Black;
+      padding: 1%;
+  }
+  :root{
+    --grayLight:  #B3B3B3;
+    --grayDark:  #999999;
+    --grayMoreLight: #c6c4c4;
+  }
+  header{
+    background-color: var(--grayDark);/*#999999;*/
+      font-size: xx-large;
+      font-style: italic;
+      font-weight: bolder;
+      padding: 1%;
+  }
+  main{
+   background-color: #CCCCCC;
+      padding: 1%;
+  }
+  
+  h1{
+      background-color: #7F7F7F;
+      font-size: x-large;
+      padding: 1%;
+      border: 5px dashed blue;
+  }
+  
+  h2{
+      background-color: var(--grayLight); /*#B3B3B3;*/
+      font-size: large;
+      padding: 1%;
+  }
+  h2::before{
+    color: red;
+    content: "-----";
+  }
+  h2::after{
+    color: green;
+    content: "***";
+  }
+  
+  p{
+      align-content: center;
+   background-color: var(--grayMoreLight);/*#c6c4c4;*/
+      padding: 1%;
+  }
+  
+  em{
+   background-color: var(--grayLight); /*#B3B3B3;*/
+  }
+  
+  strong{
+   background-color: var(--grayLight); /*#B3B3B3;*/
+      padding: 1%;
+  }
+  
+  ul{
+   background-color: var(--grayDark);/*#999999;*/
+      padding: 1%;
+  }
+  
+  li{
+   background-color: var(--grayMoreLight);/*#c6c4c4;*/
+      padding: 1%;
+  }
+  
+  footer{
+   background-color: var(--grayDark);/*#999999;*/
+      padding: 1%;
+  }
+  /* eliminamos los estilos de los enlaces*/
+  a:hover{
+    text-decoration:none;
+    color:green;
+  }
+  a{
+    text-decoration:none;
+      color: inherit;
+  }
